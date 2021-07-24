@@ -60,12 +60,12 @@ export default function TodoList() {
             <TodoForm  onSubmit={addTodo} />
             <Todo todos={todos} toggleTodo={toggleTodo} removeTodo={removeTodo} updateTodo={updateTodo}/>
             <br/>
-            <button onClick={handleClearTodos}>Clear Complete</button> 
+            {todos.length > 0 && <button className="clear-todos-button" onClick={handleClearTodos}>Clear Complete</button> }
+            {todos.length > 0 && <p className="todo-counter">{todos.filter(todo => !todo.complete).length} left to do</p> }
             <div className="footer">
                 Made By Gino Swanepoel with React <br/>
                 © All rights reserved.
             </div>
-            {/* <div>{todos.filter(todo => !todo.complete).length} left to do</div> */}
         </div>
         
     )
