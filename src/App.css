@@ -98,7 +98,7 @@ h1 {
 }
 
 .todo-counter {
-    padding-top: 10px;
+    padding: 10px 0 25px 0;
     color: white;
     font-size: 12px;
 }
@@ -188,7 +188,7 @@ h1 {
 }
 
 .footer {
-    padding: 30px 0 0 0;
+    padding: 0 0 0 0;
     text-align: center;
     color: #868686;
     font-size: 12px;
@@ -202,49 +202,15 @@ h1 {
         width: 80%;
     }
 
-/* 
-    .submenu {
-        width: 100%;
-        position: relative;
-    }
-    .btn {
-        display: block;
-        font-size: 18px;
-    }
-    h1 {
-        font-size: 32px;
-        margin: 0 0 8px 0;
-    }
-    h2 {
-        font-size: 18px;
-    }
-    section {
-        padding: 25px 0 15px 0;
+    .todo-input {
+        width: 60%;
     }
 
-    .skill {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: left;
-        margin: 0 0 10px 0;
-        font-size: 16px;
+    .title {
+        font-size: 22px;
     }
 
-    .skill svg {
-        width: 15%;
-        min-width: 60px;
-        margin-right: 20px;
+    .todo-row {
+        width: 80%;
     }
-
-    footer {
-        padding: 30px 0 10px 0;
-    }
-
-    footer li {
-        display: block;
-        margin: 5px 0;
-    } */
-
  }
