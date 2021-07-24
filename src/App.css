@@ -200,11 +200,15 @@ h1 {
 @media screen and (max-width: 480px) {
     .todo-app {
         width: 80%;
-        margin: 10%;
+        margin: 20% auto;
     }
 
     .todo-input {
         width: 60%;
+    }
+
+    .todo-input.edit {
+        width:50%;
     }
 
     .title {
@@ -213,6 +217,6 @@ h1 {
 
     .todo-row {
         width: 80%;
-        font-size: 14px;
+        font-size: 13px;
     }
  }
