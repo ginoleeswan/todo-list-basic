@@ -141,6 +141,10 @@ h1 {
      rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
+.todo-text {
+    padding-right: 10px;
+}
+
 .todo-text:hover {
     cursor: pointer;
     font-weight: bold;
