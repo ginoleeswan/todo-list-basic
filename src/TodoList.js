@@ -7,6 +7,7 @@ const LOCAL_STORAGE_KEY = 'todoApp.todos'
 export default function TodoList() {
     const [todos, setTodos] = useState([]);
 
+ 
     function addTodo(todo) {
         if (!todo.text || /^\s*$/.test(todo.test)) return;
 
@@ -54,11 +55,14 @@ export default function TodoList() {
     localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(todos))
     }, [todos])
     
+
+
+
     return (
         <div>
             <h1 className="title">Tasks for Today</h1>
             <TodoForm  onSubmit={addTodo} />
-            <Todo todos={todos} toggleTodo={toggleTodo} removeTodo={removeTodo} updateTodo={updateTodo}/>
+            <Todo todos={todos} toggleTodo={toggleTodo} removeTodo={removeTodo} updateTodo={updateTodo} />
             <br/>
             {todos.length > 0 && <button className="clear-todos-button" onClick={handleClearTodos}>Clear Complete</button> }
             {todos.length > 0 && <p className="todo-counter">{todos.filter(todo => !todo.complete).length} left to do</p> }
@@ -69,4 +73,8 @@ export default function TodoList() {
         </div>
         
     )
+
+
+
+
 }

@@ -28,6 +28,8 @@ export default function Todo({ todos, toggleTodo, removeTodo, updateTodo }) {
     //     toggleTodo(todo.id)
     // }
 
+    
+
     return todos.map((todo, index) => (
         <div
         className={todo.complete ? 'todo-row complete' : 'todo-row'}
@@ -53,4 +55,11 @@ export default function Todo({ todos, toggleTodo, removeTodo, updateTodo }) {
             
         </div>
     ));
+
+
+
+ 
+    
+
+
 }
