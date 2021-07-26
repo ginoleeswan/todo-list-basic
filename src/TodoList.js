@@ -9,7 +9,7 @@ export default function TodoList() {
 
  
     function addTodo(todo) {
-        if (!todo.text || /^\s*$/.test(todo.test)) return;
+        if (!todo.text || /^\s*$/.test(todo.text)) return;
 
         const newTodos = [todo, ...todos];
         setTodos(newTodos);
@@ -24,7 +24,7 @@ export default function TodoList() {
         }
 
     function updateTodo(todoID, newValue) {
-        if (!newValue.text || /^\s*$/.test(newValue.test)) return
+        if (!newValue.text || /^\s*$/.test(newValue.text)) return
             
         setTodos(prevTodos => prevTodos.map(item => (
             item.id === todoID ? newValue : item)
