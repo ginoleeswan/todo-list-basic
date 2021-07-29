@@ -55,4 +55,3 @@ Copyright © 2021 [Gino Swanepoel](https://github.com/ginoleeswan).<br />
 This project is [MIT](https://github.com/ginoleeswan/todo-list-basic/blob/master/LICENSE) licensed.
 
 ***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
