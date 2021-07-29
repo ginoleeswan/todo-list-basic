@@ -38,10 +38,10 @@ export default function TodoList() {
             setTodos(removeArr)
         }
 
-  function handleClearTodos(e) {
-    const newTodos = todos.filter(todo => !todo.complete)
-    setTodos(newTodos)
-  }
+    function handleClearTodos(e) {
+        const newTodos = todos.filter(todo => !todo.complete)
+        setTodos(newTodos)
+    }
 
 
 
