@@ -93,24 +93,8 @@ npm run test
  &nbsp; Github: [@ginoleeswan](https://github.com/ginoleeswan)\
  &nbsp; LinkedIn: [@ginoswanepoel](https://linkedin.com/in/ginoswanepoel)
 
-<<<<<<< HEAD
-
-# </div>
-
-<a href="https://www.patreon.com/ginolee">
-  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
-</a>
-
-## 📝 License
-
-> > > > > > > 816474e0c340e29510c58a1deca150227ebc8687
+</div>
 
 ## ❤️ &nbsp; Show your support
 
-<<<<<<< HEAD
 Give a ⭐️ if this project helped you!
-=======
-
----
-
-> > > > > > > 816474e0c340e29510c58a1deca150227ebc8687
